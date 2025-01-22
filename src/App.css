@@ -1,0 +1,43 @@
+.dashboard-bg{
+  background-image: url("./Assets/Images/landing_page_bg.png");
+  background-size: cover;
+  background-attachment: scroll;
+  height: 100vh; 
+  width: 100%;
+  background-color: #1b1a21;
+}
+
+
+.game-img{
+  content:'';
+  transition: all 0.7s; 
+  height: 12rem;
+  width: 9.2rem;
+  background: url("./Assets/Images/83020.png");
+  background-position: center;
+  background-size: cover;
+  opacity: 1;
+}
+
+.game-img:hover {
+    opacity: .5;
+}
+
+.table_live_activity th{
+  color: #556174;
+}
+.table_live_activity td{
+  color: #fff;
+  
+}
+.table_live_activity td p{
+ font-size: 12px;
+ font-weight: 600;
+  
+}
+
+.trending_nefts_card{
+  background-color: #262b2e !important;
+  border-radius: 10px !important;
+
+}
